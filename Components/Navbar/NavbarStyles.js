@@ -1,29 +1,18 @@
-import styled, { createGlobalStyle } from "styled-components";
-
-export const GlobalStyle = createGlobalStyle`
-    *{
-        margin: 0%;
-        padding: 0%;
-    }
-    body {
-        background-color: #022128;
-        font-family: 'Open Sans', sans-serif;
-        width: 1366px;
-    }
-`;
+import styled from "styled-components";
 
 export const NavContainer = styled.div`
   display: flex;
   margin: 30px 70px;
   padding: 20px;
   justify-content: space-between;
+  border: 1px solid #00c2ff;
 `;
 export const NavLogo = styled.div`
   width: 250px;
   height: 50px;
   h1{
     color: #BFC9CA;
-    margin: 0 10px;
+    /* margin: 0 10px; */
   }
 `;
 export const NavContent = styled.div`

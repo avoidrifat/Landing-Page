@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/Components/Navbar/Navbar";
-import { GlobalStyle } from "@/Components/Navbar/NavbarStyles";
+import HeroSection from "@/Components/Hero/HeroSection";
+import { GlobalStyle } from "@/styles/GlobalStyle";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <GlobalStyle />
         <Navbar />
+        <HeroSection />
       </main>
     </>
   );
