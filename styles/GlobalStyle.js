@@ -8,7 +8,6 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #022128;
         font-family: 'Open Sans', sans-serif;
-        width: 1366px;
     }
 `;
 export const Gstyle = styled.div``

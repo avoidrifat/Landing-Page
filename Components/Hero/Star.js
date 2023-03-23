@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StarButton } from "./HeroStyles";
+import { BsStarFill } from 'react-icons/bs';
 
 const Star = () => {
   const [rating, setRating] = useState(0);
@@ -16,7 +17,7 @@ const Star = () => {
             onClick={() => handleClick(value)}
             className={value <= rating ? 'active' : ''}
           >
-            &#9733;
+            <BsStarFill />
           </StarButton>
         );
       })}

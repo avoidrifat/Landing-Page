@@ -5,14 +5,12 @@ export const NavContainer = styled.div`
   margin: 30px 70px;
   padding: 20px;
   justify-content: space-between;
-  border: 1px solid #00c2ff;
 `;
 export const NavLogo = styled.div`
   width: 250px;
   height: 50px;
   h1{
     color: #BFC9CA;
-    /* margin: 0 10px; */
   }
 `;
 export const NavContent = styled.div`

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "@/Components/Navbar/Navbar";
 import HeroSection from "@/Components/Hero/HeroSection";
 import { GlobalStyle } from "@/styles/GlobalStyle";
-
+import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
@@ -12,8 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
+      <main className={styles.main} >
         <GlobalStyle />
         <Navbar />
         <HeroSection />
