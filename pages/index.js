@@ -3,6 +3,7 @@ import Navbar from "@/Components/Navbar/Navbar";
 import HeroSection from "@/Components/Hero/HeroSection";
 import { GlobalStyle } from "@/styles/GlobalStyle";
 import styles from "../styles/Home.module.css";
+import ServiceSection from "@/Components/Service/Service";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
         <GlobalStyle />
         <Navbar />
         <HeroSection />
+        <ServiceSection />
       </main>
     </>
   );

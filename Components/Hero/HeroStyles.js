@@ -68,7 +68,29 @@ export const HeroButton = styled.button`
     transform: scale(1.05);
   }
 `;
-export const HeroFooter = styled.div``;
+export const HeroFooter = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+`;
+
+export const FooterItems = styled.div`
+  display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+a {
+    color: #a6acaf;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 0px;
+  }
+`
 export const StarButton = styled.button`
   margin-left: 12px;
   font-size: 20px;

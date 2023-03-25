@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import {
+  FooterItems,
   HeroButton,
   HeroContainer,
   HeroContent,
@@ -15,6 +16,7 @@ import {
 } from "./HeroStyles";
 import Star from "./Star";
 import Hero from "/public/Image/Hero.jpg";
+import { TiTick } from "react-icons/ti";
 
 const HeroSection = () => {
   return (
@@ -35,13 +37,42 @@ const HeroSection = () => {
 
       {/* Hero Section Content */}
       <HeroContent>
-          <Image src={Hero} alt="hero" width={690} height={400} style={{borderRadius:"15px"}} />
+        <Image
+          src={Hero}
+          alt="hero"
+          width={690}
+          height={400}
+          style={{ borderRadius: "15px" }}
+        />
         <HeroContentRight>
-          <HeroText>Welcome to our mobile app development company! We specialize in crafting high quality, user-friendly apps for iOS and Android devices. Our team of expert developers, designers, and project managers work closely with clients to understand their needs and create customized solutions that exceed expectations.</HeroText>
+          <HeroText>
+            Welcome to our mobile app development company! We specialize in
+            crafting high quality, user-friendly apps for iOS and Android
+            devices. Our team of expert developers, designers, and project
+            managers work closely with clients to understand their needs and
+            create customized solutions that exceed expectations.
+          </HeroText>
           <HeroButton>Start Building</HeroButton>
         </HeroContentRight>
       </HeroContent>
-      <HeroFooter>Hero Footer</HeroFooter>
+      <HeroFooter>
+        <FooterItems>
+          <TiTick size={25} />
+          <a href="#">Android + IOS</a>
+        </FooterItems>
+        <FooterItems>
+          <TiTick size={25} />
+          <a href="#">App Development</a>
+        </FooterItems>
+        <FooterItems>
+          <TiTick size={25} />
+          <a href="#">App Design</a>
+        </FooterItems>
+        <FooterItems>
+          <TiTick size={25} />
+          <a href="#">UI / UX Design</a>
+        </FooterItems>
+      </HeroFooter>
     </HeroContainer>
   );
 };
