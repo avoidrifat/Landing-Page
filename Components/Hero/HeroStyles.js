@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  margin: 30px 70px;
+  margin: 20px 0px;
   padding: 20px;
-  border: 1px solid yellow;
   color: #bfc9ca;
+  /* border: 1px solid red; */
 `;
 export const HeroHeader = styled.div`
   display: flex;
@@ -85,7 +85,7 @@ export const FooterItems = styled.div`
     -webkit-box-align: center;
     align-items: center;
 a {
-    color: #a6acaf;
+    color: white;
     margin: 10px;
     text-decoration: none;
     padding: 10px 0px;
