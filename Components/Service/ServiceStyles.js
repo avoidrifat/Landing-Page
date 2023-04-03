@@ -1,64 +1,93 @@
 import styled from "styled-components";
 
 export const ServiceContainer = styled.div`
-  /* border: 1px solid #00C2FF; */
-  padding: 20px;
-;
+  /* background-color: #79797b; */
+  /* background-color: #80acc9; */
+  /* background-color: #90e0ef; */
 
+  margin-top: 104px;
+`;
+
+export const ServiceHeader = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h1 {
-    color: white;
-    text-align: center;
-    margin: 10px 0px 20px 0px;
+    width: 370px;
+    height: 77px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #ffffff;
   }
-  hr{
-    width: 420px;
-    margin: 15px auto;
-    color: #00C2FF;
+`;
 
-  }
-  h2{
-    margin: 20px 0px;
-    span{
-      color: #00C2FF;
-      font-size: 18px;
-      margin: 10px 5px;
-    }
+export const HeaderHr = styled.hr`
+  width: 650px;
+  margin: 24px auto;
+  border: 1px solid #00c2ff;
+  :hover {
+    color: #00c2ff;
   }
 `;
 
 export const ServiceItems = styled.div`
-display: flex;
-justify-content: center;
-a {
-    color: #1E1E1E;
-    margin: 10px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
-    padding: 5px 15px;
-    border: 1px solid #00C2FF;
-    border-radius: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 7px 30px;
+    margin: 0 38px;
   }
-  .all{
-      background-color: #00C2FF;
-    }
-    .ddu{
-      margin-left: 40px;
-    }
-
-
+  .all {
+    background-color: #00c2ff;
+    color: #ffffff;
+  }
+  .ddu {
+    /* margin-left: 40px; */
+  }
 `;
 
-export const UiUxImage = styled.div`
-display: flex;
-`
-export const UiUxDescription = styled.div`
-margin-left: 50px;
-h3{
-color: #00C2FF;
-padding:  0 10px;
-}
-p{
-  width: 350px;
-padding: 10px;
-
-}
-`
+export const ServiceTitle = styled.div`
+  display: flex;
+  margin-top: 67px;
+  margin-bottom: 64px;
+`;
+export const ServiceDescription = styled.div`
+  margin-left: 64px;
+ #description{
+    width: 176px;
+    height: 39px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #00c2ff;
+  }
+  p {
+    margin-top: 16px;
+    width: 542px;
+    height: 58px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    text-align: justify;
+  }
+`;
+export const DevService = styled.div`
+  margin-top: 40px;
+`;

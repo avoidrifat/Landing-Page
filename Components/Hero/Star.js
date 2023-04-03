@@ -17,7 +17,7 @@ const Star = () => {
             onClick={() => handleClick(value)}
             className={value <= rating ? 'active' : ''}
           >
-            <BsStarFill />
+            <BsStarFill size={32}/>
           </StarButton>
         );
       })}

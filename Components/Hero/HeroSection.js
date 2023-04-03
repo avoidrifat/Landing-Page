@@ -11,8 +11,7 @@ import {
   HeroHeader,
   HeroHeaderLeft,
   HeroHeaderRight,
-  HeroHeaderRightText,
-  HeroText,
+  HText,
 } from "./HeroStyles";
 import Star from "./Star";
 import Hero from "/public/Image/Hero.jpg";
@@ -21,55 +20,56 @@ import { TiTick } from "react-icons/ti";
 const HeroSection = () => {
   return (
     <HeroContainer>
-      {/* Hero Section Header */}
       <HeroHeader>
         <HeroHeaderLeft>
           <h3>
-            Build Your Dream Mobile Application With Our Team of &nbsp;
-            <span>Expert Developers</span>
+            Build Your Dream Mobile Application <br /> With Our Team of
+            <span>&#x202F;&#x202F;Expert Developers</span>
           </h3>
         </HeroHeaderLeft>
         <HeroHeaderRight>
-          <HeroHeaderRightText>1000+ User Reviews</HeroHeaderRightText>
+          <p>1000+ User Reviews</p>
           <Star />
         </HeroHeaderRight>
       </HeroHeader>
 
-      {/* Hero Section Content */}
       <HeroContent>
-        <Image
-          src={Hero}
-          alt="hero"
-          width={690}
-          height={400}
-          style={{ borderRadius: "15px" }}
-        />
+        <HeroContentLeft>
+          <Image
+            src={Hero}
+            alt="hero"
+          />
+        </HeroContentLeft>
+
         <HeroContentRight>
-          <HeroText>
-            Welcome to our mobile app development company! We specialize in
-            crafting high quality, user-friendly apps for iOS and Android
-            devices. Our team of expert developers, designers, and project
-            managers work closely with clients to understand their needs and
-            create customized solutions that exceed expectations.
-          </HeroText>
+          <HText>
+            <p>
+              Welcome to our mobile app development company! We specialize in
+              crafting high quality, user-friendly apps for iOS and Android
+              devices. Our team of expert developers, designers, and project
+              managers work closely with clients to understand their needs and
+              create customized solutions that exceed expectations.
+            </p>
+          </HText>
           <HeroButton>Start Building</HeroButton>
         </HeroContentRight>
       </HeroContent>
+
       <HeroFooter>
         <FooterItems>
-          <TiTick size={25} />
+        <TiTick size={38.4} fill="#00C2FF" />
           <a href="#">Android + IOS</a>
         </FooterItems>
         <FooterItems>
-          <TiTick size={25} />
+          <TiTick size={38.4} fill="#00C2FF" />
           <a href="#">App Development</a>
         </FooterItems>
         <FooterItems>
-          <TiTick size={25} />
+          <TiTick size={38.4} fill="#00C2FF" />
           <a href="#">App Design</a>
         </FooterItems>
         <FooterItems>
-          <TiTick size={25} />
+          <TiTick size={38.4} fill="#00C2FF" />
           <a href="#">UI / UX Design</a>
         </FooterItems>
       </HeroFooter>

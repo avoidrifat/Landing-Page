@@ -5,13 +5,14 @@ const Navbar = () => {
   return (
     <NavContainer>
       <NavLogo>
-        <h1>BLULAB</h1>
+        <h1>BluLab</h1>
       </NavLogo>
       <NavContent>
-        <a href="#" >Home</a>
+        <a href="#" id="home" >Home</a>
         <a href="#" >Contact</a>
         <a href="#" >About Us</a>
         <a href="#" >Hire Us</a>
+
       </NavContent>
     </NavContainer>
   );
