@@ -20,12 +20,15 @@ const Accordion = ({ title, content }) => {
 export const AccordionContainer = styled.div`
   margin-bottom: 64px;
   margin-top: 92px;
+
 `;
 
 export const AccordionHeader = styled.div`
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+
+
 `;
 
 
@@ -63,6 +66,7 @@ export const AccordionRight = styled.div`
 `;
 
 export const AccordionLeft = styled.div`
+
   display: flex;
   align-items: center;
   span {

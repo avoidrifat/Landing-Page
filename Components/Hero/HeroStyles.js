@@ -26,7 +26,7 @@ export const HeroHeaderLeft = styled.div`
 `;
 export const HeroHeaderRight = styled.div`
   width: 420px;
-  border: 6px solid #00c2ff;
+  border: 6px solid #ffffff;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -120,7 +120,8 @@ export const FooterItems = styled.div`
 `;
 export const StarButton = styled.button`
   margin: 8px;
-  background: #d9d9d9;
+  color: #D9D9D9;
+;
   border: 0px;
   height: 0;
   &:hover {

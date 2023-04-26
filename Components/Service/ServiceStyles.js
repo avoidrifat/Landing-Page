@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 export const ServiceContainer = styled.div`
-  /* background-color: #79797b; */
-  /* background-color: #80acc9; */
-  /* background-color: #90e0ef; */
-
   margin-top: 104px;
 `;
 
@@ -53,12 +49,10 @@ export const ServiceItems = styled.div`
     background-color: #00c2ff;
     color: #ffffff;
   }
-  .ddu {
-    /* margin-left: 40px; */
-  }
 `;
 
 export const ServiceTitle = styled.div`
+
   display: flex;
   margin-top: 67px;
   margin-bottom: 64px;

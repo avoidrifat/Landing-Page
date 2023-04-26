@@ -10,10 +10,12 @@ import {ServiceDescription, ServiceTitle} from "./ServiceStyles";
 import uiux from "../../public/Image/uiux.jpg";
 import {BsArrowRight} from "react-icons/bs";
 
+
+
 const services = [
     {
         title: (
-            <AccordionHeader>
+            <AccordionHeader >
                 <AccordionLeft>
                     <span>01</span>
                 </AccordionLeft>

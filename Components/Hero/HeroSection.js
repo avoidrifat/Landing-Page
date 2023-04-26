@@ -14,7 +14,7 @@ import {
   HText,
 } from "./HeroStyles";
 import Star from "./Star";
-import Hero from "/public/Image/Hero.jpg";
+import Hero from "/public/Image/Rectangle 2.jpg";
 import { TiTick } from "react-icons/ti";
 
 const HeroSection = () => {
@@ -29,7 +29,7 @@ const HeroSection = () => {
         </HeroHeaderLeft>
         <HeroHeaderRight>
           <p>1000+ User Reviews</p>
-          <Star />
+          <Star style={{margin:"8px"}}/>
         </HeroHeaderRight>
       </HeroHeader>
 
