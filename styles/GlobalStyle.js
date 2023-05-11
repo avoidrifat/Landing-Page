@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0%;
 
         ::-webkit-scrollbar {
-            width: 20px;
+            width: 12px;
             -webkit-transition: all 300ms;
             transition: all 300ms;
         }

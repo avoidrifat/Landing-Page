@@ -11,6 +11,7 @@ import {
   ImageUp,
 } from "./Aboutstyles";
 import Rectangle50up from "../../public/Image/Rectangle 50 up.jpg";
+import Link from "next/link";
 
 const index = () => {
   return (
@@ -28,7 +29,7 @@ const index = () => {
             <br /> We Are Here to Make Your Vision Come to Reality. We Are Ready
             To Build Your Project. Contact Us Today !
           </p>
-          <button>Contact</button>
+          <button><Link className="LinkBtn" href="/contact">Contact</Link></button> <br />
         </AboutLeft>
         <AboutRight>
           <ImageUp src={Rectangle50up} />

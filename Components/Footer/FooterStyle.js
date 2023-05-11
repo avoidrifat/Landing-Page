@@ -1,17 +1,14 @@
 import styled from "styled-components";
 
-
 export const FooterWrapper = styled.div`
   margin-top: 95px;
   margin-bottom: 28px;
   display: flex;
   justify-content: space-between;
 `;
-export const FooterLeft = styled.div`
-`;
+export const FooterLeft = styled.div``;
 
 export const LeftTop = styled.div`
-
   h3 {
     width: 497px;
     height: 117px;
@@ -26,7 +23,7 @@ export const LeftTop = styled.div`
       cursor: pointer;
       text-decoration: none;
     }
-    span{
+    span {
       color: #00c2ff;
       cursor: pointer;
     }
@@ -100,7 +97,7 @@ export const IconDiv = styled.div`
   margin-left: 40px;
   #icons {
     margin-left: 25px;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
   }
 `;
@@ -132,5 +129,9 @@ export const FooterRight = styled.div`
     margin-top: 30px;
     background-color: transparent;
     cursor: pointer;
+  }
+  .LinkBtn{
+    color: #ffffff;
+    text-decoration: none;
   }
 `;

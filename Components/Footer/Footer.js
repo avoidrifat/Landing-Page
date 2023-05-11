@@ -46,7 +46,7 @@ const Footer = () => {
 
       <FooterRight>
         <h2>BLULAB</h2>
-        <button>Contact</button> <br />
+        <button><Link className="LinkBtn" href="/contact">Contact</Link></button> <br />
         <button>Discuss</button>
       </FooterRight>
     </FooterWrapper>

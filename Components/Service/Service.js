@@ -1,5 +1,5 @@
 import React from "react";
-import { ServiceContainer, UiUxImage, ServiceItems, UiUxDescription, DevService, HrLine, HeaderHr, ServiceHeader } from "./ServiceStyles";
+import { ServiceContainer, ServiceItems, HeaderHr, ServiceHeader } from "./ServiceStyles";
 import ServicePage from "./ServicePage";
 
 const ServiceSection = () => {

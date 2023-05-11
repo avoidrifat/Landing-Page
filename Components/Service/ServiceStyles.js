@@ -52,14 +52,22 @@ export const ServiceItems = styled.div`
 `;
 
 export const ServiceTitle = styled.div`
-
   display: flex;
   margin-top: 67px;
   margin-bottom: 64px;
 `;
 export const ServiceDescription = styled.div`
   margin-left: 64px;
- #description{
+  h2 {
+    margin-bottom: 60px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+  #description {
     width: 176px;
     height: 39px;
     font-family: "Inter";

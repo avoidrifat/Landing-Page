@@ -59,6 +59,10 @@ export const AboutLeft = styled.div`
       transform: translateY(-3px);
       box-shadow: 0px 4px 10px rgba(0, 194, 255, 0.4);
     }
+    .LinkBtn{
+    color: #ffffff;
+    text-decoration: none;
+  }
   }
 `;
 export const AboutRight = styled.div`
